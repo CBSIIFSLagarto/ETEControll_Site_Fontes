@@ -1,0 +1,29 @@
+title: Manual de Sobrevivência
+description: Como sobreviver dentro do curso de Sistemas de Informação do IFS
+author: John Smith
+logo: /static/img/avatar.png
+github: https://github.com/CaioAReis/hcz-jekyll-blog
+about:
+
+baseurl: ""
+url: ""
+
+allowsearch: true
+
+disqus_shortname: 
+google_analytics: 
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
