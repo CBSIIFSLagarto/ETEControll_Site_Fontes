@@ -34,8 +34,9 @@
               {% if page.categories.size > 0 %}
                 <span class="categories">
                   &raquo; 
-                  {% for category in page.categories %}
-                    <a href="{{ site.baseurl | relative_url }}/category/{{ category }}">{{ category }}</a>
+				  {% for categoryLocal in page.categories %}
+						{% assign  cat = site.category | where: "categories", categoryLocal | first %}
+							<a href="{{ site.baseurl }}/category/{{ categoryLocal }}">{{ cat.title }} </a>
                     {% if forloop.last == false %}, {% endif %}
                   {% endfor %}
                 </span>

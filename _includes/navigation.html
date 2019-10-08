@@ -7,7 +7,7 @@
 	{% if i.url contains '://' %}
 	{% assign linkurl = i.url %}
 	{% else %}
-	{% assign linkurl = i.url | prepend: site.baseurl %}
+	{% assign linkurl = i.url | relative_url %}
 	{% endif %}
 	{% assign target = i.target %}
     {% unless target %} {% assign target = '_self' %} {% endunless %}

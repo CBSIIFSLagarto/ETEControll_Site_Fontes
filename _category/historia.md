@@ -1,6 +1,8 @@
 ---
 layout: posts_by_category
-categories: historia
+categories: 
+  - historia
+  - teste
 title: História
 permalink: /category/historia
 ---
