@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/CaioAReis/hcz-jekyll-blog
 about:
 
-baseurl: "manual-sobrevivencia-site"
+baseurl: ""
 url: ""
 
 allowsearch: true
