@@ -26,8 +26,14 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+
 
 collections:
   category:
     output: true
+
+
+plugins:
+  - jekyll-youtube
+  - jekyll-paginate
+  - jekyll-gist
