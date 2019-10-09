@@ -41,5 +41,16 @@ plugins:
   - jekyll-auto-image
   - jekyll-toc
 
+  
 # Imagem padrão para os posts.
 image: /static/img/placeholder.jpg
+
+# Configuração do plugin TOC
+toc:
+  min_level: 1
+  max_level: 6
+  no_toc_section_class: no_toc_section
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-

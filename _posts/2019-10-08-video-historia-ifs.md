@@ -12,7 +12,7 @@ Para exibir um vídeo basta usar o comando de um dos modos:
 
 ```
 {% raw %}
- {% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}
+ { % youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" % }
 {% endraw %}
 ```
 
