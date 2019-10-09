@@ -64,6 +64,8 @@
         {% else %}
           <meta name="twitter:description" content="{{ site.description }}">
         {% endif %}
-        {% if page.header-img %}
-          <meta name="twitter:image:src" content="{{ site.url }}{{site.baseurl}}/{{ page.header-img }}">
-        {% endif %}
+
+        
+		{% if page.image %}
+			<meta name="twitter:image:src" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"> 
+	  	{% endif %} 

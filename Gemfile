@@ -14,3 +14,4 @@ end
 
 gem "jekyll-youtube"
 gem "premonition", "~> 2.0.0"
+gem "jekyll-auto-image"

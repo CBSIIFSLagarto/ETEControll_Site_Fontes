@@ -6,8 +6,6 @@ categories: historia
 youtubeurl: "https://www.youtube.com/watch?v=VQdV_lqzxOI"
 ---
 
-
-
 Para exibir um vídeo basta usar o comando de um dos modos:
 
 ## Modo 1

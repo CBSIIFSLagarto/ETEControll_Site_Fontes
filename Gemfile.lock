@@ -33,6 +33,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-auto-image (1.1.3)
+      jekyll
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -80,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-auto-image
   jekyll-gist
   jekyll-paginate
   jekyll-watch
