@@ -55,6 +55,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    premonition (2.0.0)
     public_suffix (4.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -84,6 +85,7 @@ DEPENDENCIES
   jekyll-watch
   jekyll-youtube
   kramdown
+  premonition (~> 2.0.0)
   rouge
   wdm (>= 0.1.0)
 

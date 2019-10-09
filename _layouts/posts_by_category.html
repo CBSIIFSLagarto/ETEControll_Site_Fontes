@@ -34,8 +34,7 @@ layout: default
 	<div class="list-group">
 
 
-	{% if categoriasDoSite %}	
-	{{ page.categories }}
+	{% if categoriasDoSite %}		
 	<ul>
 		{% for post in site.posts %}
 			{% if page.categories == post.categories  %}	

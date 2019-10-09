@@ -37,3 +37,4 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate
   - jekyll-gist
+  - premonition

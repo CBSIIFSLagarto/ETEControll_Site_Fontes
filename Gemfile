@@ -13,3 +13,4 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-youtube"
+gem "premonition", "~> 2.0.0"
