@@ -26,7 +26,7 @@ script: ./scripts/cibuild
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - dev
+  - Dev
 
 env:
   global:
@@ -42,4 +42,4 @@ deploy:
   local_dir: _site/  # deploy this directory containing final build
   github_token: $GH_TOKEN # Set in travis-ci.org dashboard
   on:
-    branch: dev # branch name of the source code
+    branch: Dev # branch name of the source code
