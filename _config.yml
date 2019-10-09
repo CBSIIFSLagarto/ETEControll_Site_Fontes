@@ -39,6 +39,7 @@ plugins:
   - jekyll-gist
   - premonition
   - jekyll-auto-image
+  - jekyll-toc
 
 # Imagem padrão para os posts.
 image: /static/img/placeholder.jpg

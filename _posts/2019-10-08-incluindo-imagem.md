@@ -3,6 +3,7 @@ layout: post
 title:  "Formas de incluir uma imagem."
 # date:   2016-06-04 13:50:39
 categories: historia
+toc: true
 ---
 
 Formas de incluir uma imagem.
